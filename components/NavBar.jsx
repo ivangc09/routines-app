@@ -8,7 +8,7 @@ export default function NavBar() {
         <div className="flex justify-between items-center p-5 bg-black text-white">
             <div className="flex items-center gap-5">
                 <FontAwesomeIcon icon={faDumbbell}  style={{ width: '40px', height: '40px' }}/>
-                <p>FitPlex</p>
+                <Link href="/" className='text-2xl'>FitPlex</Link>
             </div>
             <ul className="flex justify-around gap-5">
                 <li><Link href="/">Home</Link></li>

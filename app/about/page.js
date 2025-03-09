@@ -1,5 +1,6 @@
 import NavBar from "@/components/NavBar"
 import AboutCard from "@/components/AboutCard"
+import Footer from "@/components/Footer"
 
 export default function About(){
     return(
@@ -7,6 +8,8 @@ export default function About(){
             <NavBar/>
 
             <AboutCard/>
+
+            <Footer/>
 
         </div>
     )
